@@ -1,0 +1,1202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>中国酒-白酒,红酒,葡萄酒,洋酒,保健酒,黄酒,茅台,五粮液,剑南春,拉菲</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body>
+    <!-- top-nav -->
+    <!-- 网站的登录注册栏 -->
+    <div id="navA">
+        <div class="nav_a">
+            <p class="nav_a_left clearfix">
+                <span>
+				<i><img src="images/icon/icon_1.jpg" alt=""/></i>
+				<a href="index.html">中酒首页</a>
+			</span>
+                <span>Hi,欢迎来中酒</span>
+                <span>
+				<a href="html/login.html" target="_black">请登录</a>
+			</span>
+                <span class="zc">
+				<a href="html/register.html" target="_black">注册</a>
+			</span>
+            </p>
+            <p class="nav_a_cen clearfix">
+                <span class="myzj">
+				<a href="#">我的中酒网</a>
+				<span class="myzjMore">
+					<a href="#">已买到的商品</a>
+					<a href="#">我关注的商品</a>
+					<a href="#">我关注的店铺</a>
+				</span>
+                </span>
+                <span>
+				<i><img src="images/icon/icon_3.jpg" alt=""/></i><a href="#">手机版</a>
+			</span>
+                <span>
+				<a href="#">帮助中心</a>
+			</span>
+                <span>
+				<i><img src="images/icon/icon_4.jpg" alt=""/></i>订购热线：<b>490-798-9999</b>
+			</span>
+            </p>
+            <p class="nav_a_right clearfix">
+                <span>
+				<a href="#">【重要通知】</a>
+			</span>
+                <span class="myxl">
+				<i><img src="images/icon/icon_5.jpg" alt=""/></i>
+				<span class="myxlCode"><img src="images/mob.jpg" alt=""></span>
+                </span>
+                <span class="mywx">
+				<i><img src="images/icon/icon_6.jpg" alt=""/></i>
+				<span class="mywxCode"><img src="images/wx.jpg" alt=""></span>
+                </span>
+            </p>
+        </div>
+    </div>
+    <!-- sideNav  ===s-->
+    <div id="box">
+        <ul>
+            <li class="onColor">
+                <a class="num" href="javascript:;" style="display:none">1F</a>
+                <a class="word" href="javascript:;" style="display:block">精选</a>
+            </li>
+            <li>
+                <a class="num" href="javascript:;">2F</a>
+                <a class="word" href="javascript:;">白酒</a>
+            </li>
+            <li>
+                <a class="num" href="javascript:;">3F</a>
+                <a class="word" href="javascript:;">红酒</a>
+            </li>
+            <li class="last">
+                <a class="num" href="javascript:;">4F</a>
+                <a class="word" href="javascript:;">洋酒</a>
+            </li>
+        </ul>
+    </div>
+    <!-- sideNav  ===e-->
+    <!-- header -->
+    <div id="header">
+        <div id="headerCon">
+            <h1 id="logo">
+				<a href="#"><img src="images/logo.png" alt=""></a>
+			</h1>
+            <div id="search">
+                <form action="" name="" />
+                <span>商品</span>
+                <input class="searchTxt" type="text" placeholder="茅台" />
+                <input class="searchBtn" type="button" value="搜索" />
+                <ul>
+                    <li>商品</li>
+                    <li>店铺</li>
+                </ul>
+                </form>
+                <div id="search_b">
+                    <a class="search_b1" href="#">五粮液</a>
+                    <a href="html/list.html">汾酒</a>
+                    <a href="#">剑南春</a>
+                    <a href="#">泸州老窖</a>
+                </div>
+            </div>
+            <div id="header_r">
+                <a href="#"><img src="images/search_right.png" alt="" /></a>
+            </div>
+        </div>
+    </div>
+    <!-- mainNav -->
+    <div id="mainNav">
+        <div id="mainNavCon">
+            <div class="mainNavLeft">
+                <a class="a1" href="#">全部商品分类</a>
+                <!-- banner图的左侧导航，以mainNavLeft为相对定位 -->
+                <ul id="banner_left">
+                    <li class="banner_left_li">
+                        <h3><i><img src="images/icon/icon_a.png" alt=""/></i>白酒</h3>
+                        <p>
+                            <a href="#">五粮液</a>
+                            <a class="a_bg" href="#">茅台</a>
+                            <a href="#">剑南春</a>
+                        </p>
+                        <div class="more">
+                            <div class="more_l">
+                                <h4>品牌</h4>
+                                <ul>
+                                    <li><a href="">剑南春</a></li>
+                                    <li><a href="">泸州老窖</a></li>
+                                    <li><a href="">洋河</a></li>
+                                    <li><a href="">汾酒</a></li>
+                                    <li><a href="">小糊涂仙</a></li>
+                                    <li><a href="">郎酒</a></li>
+                                    <li><a href="">杜康</a></li>
+                                    <li><a href="">古井</a></li>
+                                    <li><a href="">衡水老白干</a></li>
+                                    <li><a href="">孔府家</a></li>
+                                    <li><a href="">西凤</a></li>
+                                    <li><a href="">国台</a></li>
+                                    <li><a href="">牛栏山</a></li>
+                                </ul>
+                                <h4>香型</h4>
+                                <ul>
+                                    <li><a href="">酱香型</a></li>
+                                    <li><a href="">浓香型</a></li>
+                                    <li><a href="">绵柔型</a></li>
+                                    <li><a href="">清香型</a></li>
+                                    <li><a href="">特香型</a></li>
+                                    <li><a href="">董香型</a></li>
+                                    <li><a href="">凤香型</a></li>
+                                </ul>
+                                <h4>产地</h4>
+                                <ul>
+                                    <li><a href="">贵州</a></li>
+                                    <li><a href="">江西</a></li>
+                                    <li><a href="">四川</a></li>
+                                    <li><a href="">江苏</a></li>
+                                    <li><a href="">山西</a></li>
+                                    <li><a href="">内蒙</a></li>
+                                    <li><a href="">河南</a></li>
+                                    <li><a href="">青海</a></li>
+                                </ul>
+                            </div>
+                            <div class="more_r">
+                                <h4>推荐品牌</h4>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="banner_left_li">
+                        <h3><i><img src="images/icon/icon_b.png" alt=""/></i>葡萄酒</h3>
+                        <p>
+                            <a class="a_bg" href="#">拉菲</a>
+                            <a href="#">茅台</a>
+                            <a href="#">剑南春</a>
+                        </p>
+                        <div class="more">
+                            <div class="more_l">
+                                <h4>品牌</h4>
+                                <ul>
+                                    <li><a href="">佩西</a></li>
+                                    <li><a href="">张裕</a></li>
+                                    <li><a href="">乐船</a></li>
+                                    <li><a href="">小龙船</a></li>
+                                    <li><a href="">圣迪斯</a></li>
+                                    <li><a href="">奔富</a></li>
+                                    <li><a href="">美圣世家</a></li>
+                                    <li><a href="">康迪</a></li>
+                                    <li><a href="">特拉托</a></li>
+                                </ul>
+                                <h4>品种</h4>
+                                <ul>
+                                    <li><a href="">干红葡萄酒</a></li>
+                                    <li><a href="">干白葡萄酒</a></li>
+                                    <li><a href="">气泡/香槟</a></li>
+                                    <li><a href="">冰酒</a></li>
+                                    <li><a href="">果酒</a></li>
+                                    <li><a href="">甜桃红</a></li>
+                                    <li><a href="">甜白</a></li>
+                                </ul>
+                                <h4>产区</h4>
+                                <ul>
+                                    <li><a href="">法国</a></li>
+                                    <li><a href="">西班牙</a></li>
+                                    <li><a href="">智力</a></li>
+                                    <li><a href="">阿根廷</a></li>
+                                    <li><a href="">澳大利亚</a></li>
+                                    <li><a href="">南非</a></li>
+                                    <li><a href="">中国</a></li>
+                                    <li><a href="">美国</a></li>
+                                </ul>
+                            </div>
+                            <div class="more_r">
+                                <h4>推荐品牌</h4>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="banner_left_li">
+                        <h3><i><img src="images/icon/icon_c.png" alt=""/></i>洋酒</h3>
+                        <p>
+                            <a class="a_bg" href="#">马爹利</a>
+                            <a href="#">人头马</a>
+                            <a href="#">芝华士</a>
+                        </p>
+                        <div class="more">
+                            <div class="more_l">
+                                <h4>品牌</h4>
+                                <ul>
+                                    <li><a href="">皇家贝斯</a></li>
+                                    <li><a href="">兄弟</a></li>
+                                    <li><a href="">深蓝</a></li>
+                                    <li><a href="">百利甜</a></li>
+                                    <li><a href="">绝对伏特加</a></li>
+                                    <li><a href="">杰克丹尼</a></li>
+                                    <li><a href="">百龄坛</a></li>
+                                    <li><a href="">百加得</a></li>
+                                    <li><a href="">尊尼获加</a></li>
+                                    <li><a href="">叶卡</a></li>
+                                    <li><a href="">轩尼诗</a></li>
+                                    <li><a href="">皇家礼炮</a></li>
+                                    <li><a href="">摩根船长</a></li>
+                                </ul>
+                                <h4>品种</h4>
+                                <ul>
+                                    <li><a href="">聚会用酒</a></li>
+                                    <li><a href="">商务用酒</a></li>
+                                </ul>
+                                <h4>产地</h4>
+                                <ul>
+                                    <li><a href="">中国</a></li>
+                                    <li><a href="">法国</a></li>
+                                    <li><a href="">英国</a></li>
+                                    <li><a href="">美国</a></li>
+                                </ul>
+                            </div>
+                            <div class="more_r">
+                                <h4>推荐品牌</h4>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="banner_left_li">
+                        <h3><i><img src="images/icon/icon_d.png" alt=""/></i>黄酒</h3>
+                        <p>
+                            <a href="#">女儿红</a>
+                            <a class="a_bg" href="#">劲酒</a>
+                            <a href="#">尧喝货</a>
+                        </p>
+                        <div class="more">
+                            <div class="more_l">
+                                <h4>品牌</h4>
+                                <ul>
+                                    <li><a href="">塔牌</a></li>
+                                    <li><a href="">古越龙山</a></li>
+                                    <li><a href="">石库门</a></li>
+                                    <li><a href="">会稽山</a></li>
+                                    <li><a href="">唐宋</a></li>
+                                </ul>
+                                <h4>品种</h4>
+                                <ul>
+                                    <li><a href="">聚会用酒</a></li>
+                                    <li><a href="">礼节拜访</a></li>
+                                    <li><a href="">婚庆用酒</a></li>
+                                </ul>
+                            </div>
+                            <div class="more_r">
+                                <h4>推荐品牌</h4>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="banner_left_li">
+                        <h3><i><img src="images/icon/icon_e.png" alt=""/></i>礼盒专区</h3>
+                        <p>
+                            <a class="a_bg" href="#">国台好礼</a>
+                            <a href="#">成龙祥凤</a>
+                        </p>
+                        <div class="more">
+                            <div class="more_l">
+                                <h4>品牌</h4>
+                                <ul>
+                                    <li><a href="">礼盒</a></li>
+                                    <li><a href="">五粮液</a></li>
+                                    <li><a href="">汾酒</a></li>
+                                    <li><a href="">茅台</a></li>
+                                    <li><a href="">剑南春</a></li>
+                                    <li><a href="">张裕</a></li>
+                                    <li><a href="">拉菲</a></li>
+                                </ul>
+                                <h4>类型</h4>
+                                <ul>
+                                    <li><a href="">酱香型</a></li>
+                                    <li><a href="">浓香型</a></li>
+                                    <li><a href="">干红葡萄酒</a></li>
+                                    <li><a href="">干白葡萄酒</a></li>
+                                </ul>
+                                <h4>产地</h4>
+                                <ul>
+                                    <li><a href="">四川</a></li>
+                                    <li><a href="">贵州</a></li>
+                                    <li><a href="">法国</a></li>
+                                    <li><a href="">美国</a></li>
+                                </ul>
+                            </div>
+                            <div class="more_r">
+                                <h4>推荐品牌</h4>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="banner_left_li">
+                        <h3><i><img src="images/icon/icon_f.png" alt=""/></i>婚庆专区</h3>
+                        <p>
+                            <a class="a_bg" href="#">茅台</a>
+                            <a href="#">拉菲</a>
+                            <a href="#">五粮液</a>
+                            <a href="#">张裕</a>
+                        </p>
+                        <div class="more">
+                            <div class="more_l">
+                                <h4>品牌</h4>
+                                <ul>
+                                    <li><a href="">礼盒</a></li>
+                                    <li><a href="">五粮液</a></li>
+                                    <li><a href="">汾酒</a></li>
+                                    <li><a href="">茅台</a></li>
+                                    <li><a href="">剑南春</a></li>
+                                    <li><a href="">张裕</a></li>
+                                    <li><a href="">拉菲</a></li>
+                                </ul>
+                                <h4>类型</h4>
+                                <ul>
+                                    <li><a href="">酱香型</a></li>
+                                    <li><a href="">浓香型</a></li>
+                                    <li><a href="">干红葡萄酒</a></li>
+                                    <li><a href="">干白葡萄酒</a></li>
+                                </ul>
+                                <h4>产地</h4>
+                                <ul>
+                                    <li><a href="">四川</a></li>
+                                    <li><a href="">贵州</a></li>
+                                    <li><a href="">法国</a></li>
+                                    <li><a href="">美国</a></li>
+                                </ul>
+                            </div>
+                            <div class="more_r">
+                                <h4>推荐品牌</h4>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div id="banner_right">
+                    <div>
+                        <a class="banner_right_a1" href="#"><img src="images/banner_right1.jpg" alt=""></a>
+                        <a class="banner_right_a2" href="#"><img src="images/banner_right2.jpg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <ul class="mainNav">
+                <li><a class="a1" href="">首页</a></li>
+                <li><a href="">白酒会场</a></li>
+                <li><a href="">红酒会场</a></li>
+                <li><a href="">天佑德专场</a></li>
+                <li><a href="">积分商城</a></li>
+                <li><a href="">重要公告</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- banner -->
+    <div id="banner">
+        <ul id="banner_a">
+            <li>
+                <a class="a1" href="#"></a>
+            </li>
+            <li>
+                <a class="a2" href="#"></a>
+            </li>
+            <li>
+                <a class="a3" href="#"></a>
+            </li>
+            <li>
+                <a class="a4" href="#"></a>
+            </li>
+            <li>
+                <a class="a5" href="#"></a>
+            </li>
+            <li>
+                <a class="a6" href="#"></a>
+            </li>
+            <li>
+                <a class="a7" href="#"></a>
+            </li>
+            <li>
+                <a class="a8" href="#"></a>
+            </li>
+        </ul>
+        <div class="dot">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <!-- live-show 轮播图下的展示-->
+    <div id="live_show">
+        <ul>
+            <li>
+                <a href="#"><img src="images/live_show_1.jpg" alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/live_show_2.jpg" alt=""></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/live_show_3.jpg" alt=""></a>
+            </li>
+        </ul>
+    </div>
+    <!-- 限时购  ===s-->
+    <div id="time_buy">
+        <h4>
+		<i></i>
+	</h4>
+        <ul>
+            <li>
+                <a href="#" class="live_dt">
+                    <img src="images/liveshow/liveshow1.png" alt="">
+                </a>
+                <!-- 抢购时间 、价格、立即抢购按钮-->
+                <p class="p1"></p>
+                <p class="p2">RMB<span>399.00</span></p>
+                <a href="#" class="jg">立即抢购</a>
+            </li>
+            <li>
+                <a href="#" class="live_dt">
+                    <img src="images/liveshow/liveshow2.png" alt="">
+                </a>
+                <p class="p1"></p>
+                <p class="p2">RMB<span>399.00</span></p>
+                <a href="#" class="jg">立即抢购</a>
+            </li>
+            <li>
+                <a href="#" class="live_dt">
+                    <img src="images/liveshow/liveshow3.png" alt="">
+                </a>
+                <p class="p1"></p>
+                <p class="p2">RMB<span>399.00</span></p>
+                <a href="#" class="jg">立即抢购</a>
+            </li>
+            <li>
+                <a href="#" class="live_dt">
+                    <img src="images/liveshow/liveshow4.png" alt="">
+                </a>
+                <p class="p1"></p>
+                <p class="p2">RMB<span>399.00</span></p>
+                <a href="#" class="jg">立即抢购</a>
+            </li>
+            <li>
+                <a href="#" class="live_dt">
+                    <img src="images/liveshow/liveshow5.png" alt="">
+                </a>
+                <p class="p1"></p>
+                <p class="p2">RMB<span>399.00</span></p>
+                <a href="#" class="jg">立即抢购</a>
+            </li>
+        </ul>
+    </div>
+    <!-- 限时购  ===e-->
+    <!-- Single product  -->
+    <div id="single">
+        <h3>人气单品</h3>
+        <ul>
+            <li>
+                <a href="#"><img src="images/single/single_img.jpg" alt="" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/single/single_img1.jpg" alt="" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/single/single_img2.jpg" alt="" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/single/single_img3.jpg" alt="" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/single/single_img4.jpg" alt="" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/single/single_img5.jpg" alt="" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/single/single_img6.jpg" alt="" /></a>
+            </li>
+            <li>
+                <a href="#"><img src="images/single/single_img7.jpg" alt="" /></a>
+            </li>
+        </ul>
+    </div>
+    <!-- floors商品楼层  ===s-->
+    <div id="floors">
+        <div class="floor">
+            <div class="floor_top floor_top1">
+                <h3>精选尚品</h3>
+                <ul>
+                    <!-- 选项卡标题，通过ajax动态加载 -->
+                </ul>
+            </div>
+            <div class="floor_con">
+                <div class="floor_con1">
+                    <div class="floor_con1_left">
+                        <a class="a1" href=""></a>
+                        <div class="fcl_con">
+                            <a href="#">五粮液</a>
+                            <a href="#">拉菲</a>
+                            <a href="#">茅台</a>
+                            <a href="#">张裕</a>
+                            <a href="#">天佑德</a>
+                            <a href="#">泸州老窖</a>
+                            <a href="#">洋河</a>
+                            <a href="#">剑南春</a>
+                        </div>
+                        <div class="fcl_bot">
+                            <div class="fcl_scroll">
+                                <div class="fcl_ul fcl_ul1">
+                                    <ul>
+                                        <li>
+                                            <a href="#"><img src="images/floor/fcl_bot_1.jpg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/floor/fcl_bot_2.jpg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/floor/fcl_bot_3.jpg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/floor/fcl_bot_4.jpg" alt=""></a>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a href="#"><img src="images/floor/fcl_bot_5.jpg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/floor/fcl_bot_6.jpg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/floor/fcl_bot_7.jpg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/floor/fcl_bot_8.jpg" alt=""></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <b class="fcl_bot_back fcl_bot_back1"></b>
+                                <b class="fcl_bot_next fcl_bot_next1"></b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="floor_con1_right floor_con1_right1">
+                        <!-- 选项卡商品信息，通过ajax动态加载 -->
+                        <ul class="hotSole"></ul>
+                        <ul class="tagSole tagSole1"></ul>
+                        <ul class="tagSole tagSole2"></ul>
+                        <ul class="tagSole tagSole3"></ul>
+                        <ul class="tagSole tagSole4"></ul>
+                    </div>
+                </div>
+                <ul class="floor_con2">
+                    <li>
+                        <a href="#"><img src="images/floor/floor_con2_1.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/floor/floor_con2_2.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/floor/floor_con2_3.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/floor/floor_con2_4.jpg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="floor">
+            <div class="floor_top floor_top2">
+                <h3>白酒馆</h3>
+                <ul>
+                    <!-- 选项卡标题，通过ajax动态加载 -->
+                </ul>
+            </div>
+            <div class="floor_con">
+                <div class="floor_con1">
+                    <div class="floor_con1_left floor_con1_left2">
+                        <a class="a1" href=""></a>
+                        <div class="fcl_con">
+                            <a href="#">五粮液</a>
+                            <a href="#">拉菲</a>
+                            <a href="#">茅台</a>
+                            <a href="#">张裕</a>
+                            <a href="#">天佑德</a>
+                            <a href="#">泸州老窖</a>
+                            <a href="#">洋河</a>
+                            <a href="#">剑南春</a>
+                        </div>
+                        <div class="fcl_bot">
+                            <div class="fcl_scroll">
+                                <div class="fcl_ul fcl_ul2">
+                                    <ul>
+                                        <li>
+                                            <a href="#"><img src="images/floor/fcl_bot_1.jpg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/floor/fcl_bot_2.jpg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/floor/fcl_bot_3.jpg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/floor/fcl_bot_4.jpg" alt=""></a>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a href="#"><img src="images/floor/fcl_bot_5.jpg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/floor/fcl_bot_6.jpg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/floor/fcl_bot_7.jpg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/floor/fcl_bot_8.jpg" alt=""></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <b class="fcl_bot_back"></b>
+                                <b class="fcl_bot_next"></b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="floor_con1_right floor_con1_right2">
+                        <ul class="hotSole"></ul>
+                        <ul class="tagSole tagSole1"></ul>
+                        <ul class="tagSole tagSole2"></ul>
+                        <ul class="tagSole tagSole3"></ul>
+                    </div>
+                </div>
+                <ul class="floor_con2">
+                    <li>
+                        <a href="#"><img src="images/floor/b1.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/floor/b2.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/floor/b3.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/floor/b4.jpg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="floor">
+            <div class="floor_top floor_top3">
+                <h3>红酒馆</h3>
+                <ul>
+                    <!-- 选项卡标题，通过ajax动态加载 -->
+                </ul>
+            </div>
+            <div class="floor_con">
+                <div class="floor_con1">
+                    <div class="floor_con1_left floor_con1_left3">
+                        <a class="a1" href=""></a>
+                        <div class="fcl_con">
+                            <a href="#">五粮液</a>
+                            <a href="#">拉菲</a>
+                            <a href="#">茅台</a>
+                            <a href="#">张裕</a>
+                            <a href="#">天佑德</a>
+                            <a href="#">泸州老窖</a>
+                            <a href="#">洋河</a>
+                            <a href="#">剑南春</a>
+                        </div>
+                        <div class="fcl_bot">
+                            <div class="fcl_scroll">
+                                <div class="fcl_ul fcl_ul3">
+                                    <ul>
+                                        <li>
+                                            <a href="#"><img src="images/floor/fcl_bot_1.jpg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/floor/fcl_bot_2.jpg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/floor/fcl_bot_3.jpg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/floor/fcl_bot_4.jpg" alt=""></a>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a href="#"><img src="images/floor/fcl_bot_5.jpg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/floor/fcl_bot_6.jpg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/floor/fcl_bot_7.jpg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/floor/fcl_bot_8.jpg" alt=""></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <b class="fcl_bot_back"></b>
+                                <b class="fcl_bot_next"></b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="floor_con1_right floor_con1_right3">
+                        <ul class="hotSole"></ul>
+                        <ul class="tagSole tagSole1"></ul>
+                        <ul class="tagSole tagSole2"></ul>
+                    </div>
+                </div>
+                <ul class="floor_con2">
+                    <li>
+                        <a href="#"><img src="images/floor/c1.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/floor/c2.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/floor/c3.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/floor/c4.jpg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="floor">
+            <div class="floor_top floor_top4">
+                <h3>啤酒&洋酒馆</h3>
+                <ul>
+                    <!-- 选项卡标题，通过ajax动态加载 -->
+                </ul>
+            </div>
+            <div class="floor_con">
+                <div class="floor_con1">
+                    <div class="floor_con1_left floor_con1_left4">
+                        <a class="a1" href=""></a>
+                        <div class="fcl_con">
+                            <a href="#">五粮液</a>
+                            <a href="#">拉菲</a>
+                            <a href="#">茅台</a>
+                            <a href="#">张裕</a>
+                            <a href="#">天佑德</a>
+                            <a href="#">泸州老窖</a>
+                            <a href="#">洋河</a>
+                            <a href="#">剑南春</a>
+                        </div>
+                        <div class="fcl_bot">
+                            <div class="fcl_scroll">
+                                <div class="fcl_ul fcl_ul4">
+                                    <ul>
+                                        <li>
+                                            <a href="#"><img src="images/floor/fcl_bot_1.jpg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/floor/fcl_bot_2.jpg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/floor/fcl_bot_3.jpg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/floor/fcl_bot_4.jpg" alt=""></a>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a href="#"><img src="images/floor/fcl_bot_5.jpg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/floor/fcl_bot_6.jpg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/floor/fcl_bot_7.jpg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/floor/fcl_bot_8.jpg" alt=""></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <b class="fcl_bot_back"></b>
+                                <b class="fcl_bot_next"></b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="floor_con1_right floor_con1_right4">
+                        <ul class="hotSole"></ul>
+                        <ul class="tagSole tagSole1"></ul>
+                        <ul class="tagSole tagSole2"></ul>
+                    </div>
+                </div>
+                <ul class="floor_con2">
+                    <li>
+                        <a href="#"><img src="images/floor/d1.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/floor/d2.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/floor/d3.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/floor/d4.jpg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- floors商品楼层  ===e-->
+    <!-- store ====s-->
+    <div id="store">
+        <h3>品牌旗舰店</h3>
+        <div class="store_left">
+            <a href="#">
+                <img src="images/store/store1.jpg" alt="">
+            </a>
+        </div>
+        <div class="store_con">
+            <b class="store_con_back"></b>
+            <b class="store_con_next"></b>
+            <div class="store_warp">
+                <div class="store_ul">
+                    <ul>
+                        <li>
+                            <a href="#"><img src="images/store/logo_322.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/store/logo_323.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/store/logo_324.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/store/logo_325.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/store/logo_326.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/store/logo_329.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/store/logo_330.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/store/logo_331.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/store/logo_332.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/store/logo_334.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/store/logo_335.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/store/logo_336.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/store/logo_337.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/store/logo_339.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/store/logo_342.jpg" alt=""></a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="#"><img src="images/store/logo_322.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/store/logo_323.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/store/logo_324.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/store/logo_325.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/store/logo_326.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/store/logo_329.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/store/logo_330.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/store/logo_331.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/store/logo_332.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/store/logo_334.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/store/logo_335.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/store/logo_336.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/store/logo_337.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/store/logo_339.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/store/logo_342.jpg" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="store_right">
+            <a href="#">
+                <img src="images/store/store2.jpg" alt="">
+            </a>
+        </div>
+    </div>
+    <!-- store ====e-->
+    <!-- foot ===s-->
+    <div id="foot">
+        <!-- 正品保证 ====s-->
+        <div id="sure">
+            <div id="sureCon">
+                <dl>
+                    <dt class="sure_dt1"></dt>
+                    <dd>
+                        <h3>正品保障</h3>
+                        <p>厂家直供 正品防伪</p>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="sure_dt2"></dt>
+                    <dd>
+                        <h3>正品保障</h3>
+                        <p>厂家直供 正品防伪</p>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="sure_dt3"></dt>
+                    <dd>
+                        <h3>正品保障</h3>
+                        <p>厂家直供 正品防伪</p>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="sure_dt4"></dt>
+                    <dd>
+                        <h3>正品保障</h3>
+                        <p>厂家直供 正品防伪</p>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="sure_dt5"></dt>
+                    <dd>
+                        <h3>正品保障</h3>
+                        <p>厂家直供 正品防伪</p>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="sure_dt6"></dt>
+                    <dd>
+                        <h3>正品保障</h3>
+                        <p>厂家直供 正品防伪</p>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <!-- 正品保证 ====e-->
+        <!-- friendLink====s -->
+        <div id="firendLink">
+            <div id="yqLink">
+                <!-- yqLink_left===s -->
+                <div class="yqLink_left">
+                    <a href="#"><img src="images/foot/zj2.png" alt=""></a>
+                    <a href="#"><img src="images/foot/ls.png" alt=""></a>
+                    <a href="#"><img src="images/foot/yt.png" alt=""></a>
+                </div>
+                <!-- yqLink_left===e -->
+                <!-- yqLink_c  ===s -->
+                <div class="yqLink_c">
+                    <dl>
+                        <dt>购物指南</dt>
+                        <dd><a href="#">购物流程</a></dd>
+                        <dd><a href="#">用户注册协议</a></dd>
+                        <dd><a href="#">会员积分</a></dd>
+                        <dd><a href="#">发票问题</a></dd>
+                        <dd><a href="#">优惠卷问题</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>配送说明</dt>
+                        <dd><a href="#">99免运费</a></dd>
+                        <dd><a href="#">配送问题</a></dd>
+                        <dd><a href="#">快递查询</a></dd>
+                        <dd><a href="#">烟火与签收</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>支付方式</dt>
+                        <dd><a href="#">支付宝</a></dd>
+                        <dd><a href="#">银联/信用卡</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>售后服务</dt>
+                        <dd><a href="#">常见问题</a></dd>
+                        <dd><a href="#">服务承诺</a></dd>
+                        <dd><a href="#">退款说明</a></dd>
+                        <dd><a href="#">退换货政策</a></dd>
+                        <dd><a href="#">退换货流程</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>服务保障</dt>
+                        <dd><a href="#">30分钟快速响应</a></dd>
+                        <dd><a href="#">7*12小时贴心服务</a></dd>
+                        <dd><a href="#">真品防伪，四码合一</a></dd>
+                    </dl>
+                </div>
+                <!-- yqLink_c  ===e -->
+                <!-- yqLink_r  ===s -->
+                <div class="yqLink_r">
+                    <dl>
+                        <dt>手机中国</dt>
+                        <dd>
+                            <img src="images/mob.jpg" alt="">
+                            <p>下载移动客户端</p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>中酒微信</dt>
+                        <dd>
+                            <img src="images/wx.jpg" alt="">
+                            <p>中酒官方微信</p>
+                        </dd>
+                    </dl>
+                </div>
+                <!-- yqLink_r  ===e -->
+            </div>
+        </div>
+        <!-- friendLink====e -->
+        <!-- Link ==s -->
+        <div id="Link">
+            <div id="LinkCon">
+                <a href="#">关于中酒</a>
+                <a href="#">媒体报道</a>
+                <a href="#">商务合作</a>
+                <a href="#">品牌入驻</a>
+                <a href="#">加入中酒</a>
+                <a href="#">商家加盟</a>
+                <a class="last_a" href="#">联系我们</a>
+            </div>
+        </div>
+        <!-- Link ==d -->
+        <div id="copyright">
+            <p>
+                Copyright &copy; 2016 中酒网(www.zhongjiu.cn) 版权所有 京ICP备12022216号-2 | 京公网安备 11010502026701 | 购买前请确认达到法定饮酒年龄！中酒网不销售任何含酒精产品给18岁以下人士！
+            </p>
+            <div class="copy">
+                <a href="#"><img src="images/foot/copy1.png" alt=""></a>
+                <a href="#"><img src="images/foot/copy2.jpg" alt=""></a>
+                <a href="#"><img src="images/foot/copy3.png" alt=""></a>
+                <a href="#"><img src="images/foot/copy4.png" alt=""></a>
+                <a href="#"><img src="images/foot/copy5.png" alt=""></a>
+                <a href="#"><img src="images/foot/copy6.png" alt=""></a>
+            </div>
+        </div>
+        <!-- foot ===e -->
+        <!-- car ===s-->
+<div id="side_car">
+    <div class="side_c">
+        <ul class="car">
+            <li class="car_user car_li">
+                <span></span>
+                <div>
+                    个人中心
+                </div>
+            </li>
+            <li class="car_car">
+                <strong class="x1"></strong>
+                <span>
+                    <i></i>
+                    <p id="end">购物车</p>
+                    <b id="nCount">0</b>
+                </span>
+                <strong></strong>
+            </li>
+            <li class="car_money  car_li">
+                <span>
+                    <i></i>
+                </span>
+                <div>
+                    资产中心
+                </div>
+                
+            </li>
+            <li class="car_like  car_li">
+                <span>
+                    <i></i>
+                </span>
+                <div>
+                    关注商品
+                </div>
+            </li>
+            <li class="car_history  car_li">
+                <span>
+                    <i></i>
+                </span>
+                <div>
+                    浏览历史
+                </div>
+            </li>
+        </ul>
+        <ul class="goTop">
+            <li>
+                <span></span>
+                <div>
+                    回到顶部
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="side_con">
+         <div class="sideCarTop">
+            <div class="sideChose">
+                <input type="checkbox" id="sideAll"><label for="sideAll">全选</label>
+            </div>
+            <a href="car.html">查看全部</a>
+        </div>
+        <div class="sideCarFoot">
+            <div class="sideMoney">
+                <span class="sideTotalNum">已选<i>0</i>件</span>
+                <span class="sideTotalMoney">￥<i>0</i></span>
+            </div>
+            <div class="sidePayBtn">
+                <a href="html/car.html">购物车结算</a>
+            </div>
+        </div>
+        <div class="sideMain">
+            <ul class="sidelist">
+              <!-- 读取cookie获取数据 -->
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- car ===e-->
+
+</body>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script src="js/server.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/indexAjax.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/changePic.js"></script>
+
+</html>
